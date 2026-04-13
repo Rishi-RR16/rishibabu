@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <section class="section hero-section" id="hero">
       <div class="container hero-content">
-        <h2 class="greeting neon-text-secondary">Hello, World. I am</h2>
+        <h2 class="greeting neon-text-secondary">Hello. I am</h2>
         <h1 class="glitch name-title neon-text-primary" data-text="RISHI BABU">RISHI BABU</h1>
         <h3 class="role">Full Stack Developer</h3>
         <div class="contact-bar">
@@ -65,4 +65,4 @@ import { Component } from '@angular/core';
     }
   `]
 })
-export class HeroComponent {}
+export class HeroComponent { }
